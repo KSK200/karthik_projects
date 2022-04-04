@@ -67,9 +67,7 @@ class School:
         for x in myresult:
             print(x)
         
-        if(myresult==NULL):
-            print(roll_no," is Invalid Roll no")
-
+       
     def allstudents(self):
         cursor.execute("SELECT * FROM student_details")
 
