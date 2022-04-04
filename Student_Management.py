@@ -66,6 +66,7 @@ class School:
         print("Student details")
         for x in myresult:
             print(x)
+        
         if(myresult==NULL):
             print(roll_no," is Invalid Roll no")
 
