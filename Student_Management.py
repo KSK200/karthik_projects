@@ -66,6 +66,8 @@ class School:
         print("Student details")
         for x in myresult:
             print(x)
+        if(myresult==NULL):
+            print(roll_no," is Invalid Roll no")
 
     def allstudents(self):
         cursor.execute("SELECT * FROM student_details")
@@ -112,7 +114,7 @@ try:
         elif(option==5):
             print("Thank you Have a nice day!")
             s.closeconnection()
-            exit()
+            break
         else:
             print(option," is invalid choice!!!")
 except:
